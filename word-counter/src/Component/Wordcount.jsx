@@ -24,7 +24,7 @@ function Wordcount() {
         if(e.target.value === " "){
             setParagraphCount(0)
         } else{
-            setParagraphCount (e.target.value.split(/\r?\n|\r/).length);
+            setParagraphCount (e.target.value.split('\n').length);
         }
     }
 
